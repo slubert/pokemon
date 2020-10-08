@@ -1,6 +1,7 @@
 .pageContainer{
     background-color: rgb(48, 48, 48);
 
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +22,9 @@ h3{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+#backButton{
+    color: white;
 }
 .centerShiny{
     display: flex;
